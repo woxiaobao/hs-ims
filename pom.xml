@@ -15,11 +15,9 @@
 
     <modules>
         <module>sources/parent</module>
-        <module>sources/basics/fais-researchpublic-api</module>
+        <module>sources/basics/demo-api</module>
         <module>sources/basics/fais-common</module>
-        <module>sources/service/fais-researchpublic-server</module>
-        <module>sources/basics/fais-investpool-api</module>
-        <module>sources/service/fais-investpool-server</module>
+        <module>sources/service/demo-server</module>
     </modules>
 
 </project>

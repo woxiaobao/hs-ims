@@ -10,21 +10,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>researchpublic-server</artifactId>
-    <name>公共模块service</name>
+    <artifactId>demo-api</artifactId>
+    <name>api</name>
     <packaging>jar</packaging>
     <version>${fais.version}</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.fais.hs.manage</groupId>
-            <artifactId>common</artifactId>
-            <version>${fais.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fais.hs.manage</groupId>
-            <artifactId>researchpublic-api</artifactId>
-            <version>${fais.version}</version>
-        </dependency>
-    </dependencies>
+
 </project>
