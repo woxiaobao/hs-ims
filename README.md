@@ -1,4 +1,4 @@
-### 投研项目架构
+### 项目架构
 
 版本统一管理，解决项目直接的依赖
 
@@ -34,7 +34,7 @@
 
     <groupId>com.fais.hs.manage</groupId>
     <artifactId>ims-build</artifactId>
-    <name>投研系统</name>
+    <name>a-系统</name>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -68,7 +68,7 @@
 
     <groupId>com.fais.hs.manage</groupId>
     <artifactId>parent</artifactId>
-    <name>投研系统父工程</name>
+    <name>系统父工程</name>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -133,7 +133,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>investpool-server</artifactId>
-    <name>投资池service</name>
+    <name>a-service</name>
     <packaging>jar</packaging>
     <version>${fais.version}</version>
 

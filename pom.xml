@@ -6,7 +6,7 @@
 
     <groupId>com.fais.hs.manage</groupId>
     <artifactId>ims-build</artifactId>
-    <name>投研系统</name>
+    <name>a系统</name>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 

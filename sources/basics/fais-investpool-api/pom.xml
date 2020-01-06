@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>investpool-api</artifactId>
-    <name>投资池api</name>
+    <name>api</name>
     <packaging>jar</packaging>
     <version>${fais.version}</version>
 
