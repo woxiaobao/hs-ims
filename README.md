@@ -7,18 +7,14 @@
 ```yaml
 └── sources
     ├── basics
-    │   ├── fais-common
+    │   ├── common
     │   │   
-    │   ├── fais-investpool-api
-    │   │   
-    │   └── fais-researchpublic-api
+    │   ├── demo-api
     │       
     ├── parent
     │   └── pom.xml
     └── service
-        ├── fais-investpool-server
-        │   
-        └── fais-researchpublic-server
+        ├── demo-server
 ── pom.xml
 
 ```
@@ -34,7 +30,7 @@
 
     <groupId>com.fais.hs.manage</groupId>
     <artifactId>ims-build</artifactId>
-    <name>a-系统</name>
+    <name>a系统</name>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -43,11 +39,9 @@
 
     <modules>
         <module>sources/parent</module>
-        <module>sources/basics/fais-researchpublic-api</module>
-        <module>sources/basics/fais-common</module>
-        <module>sources/service/fais-researchpublic-server</module>
-        <module>sources/basics/fais-investpool-api</module>
-        <module>sources/service/fais-investpool-server</module>
+        <module>sources/basics/demo-api</module>
+        <module>sources/basics/common</module>
+        <module>sources/service/demo-server</module>
     </modules>
 
 </project>
@@ -118,7 +112,7 @@
 
 ```
 
-- investpool-server中的pom.xml的依赖关系
+- demo-server中的pom.xml的依赖关系
 ```yaml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -132,8 +126,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>investpool-server</artifactId>
-    <name>a-service</name>
+    <artifactId>demo-server</artifactId>
+    <name>demo-service</name>
     <packaging>jar</packaging>
     <version>${fais.version}</version>
 
@@ -145,15 +139,9 @@
         </dependency>
         <dependency>
             <groupId>com.fais.hs.manage</groupId>
-            <artifactId>researchpublic-api</artifactId>
-            <version>${fais.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fais.hs.manage</groupId>
-            <artifactId>investpool-api</artifactId>
+            <artifactId>demo-api</artifactId>
             <version>${fais.version}</version>
         </dependency>
     </dependencies>
-
 </project>
 ```

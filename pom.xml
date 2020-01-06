@@ -16,7 +16,7 @@
     <modules>
         <module>sources/parent</module>
         <module>sources/basics/demo-api</module>
-        <module>sources/basics/fais-common</module>
+        <module>sources/basics/common</module>
         <module>sources/service/demo-server</module>
     </modules>
 
