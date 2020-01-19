@@ -14,7 +14,7 @@
     <artifactId>common</artifactId>
     <name>common公共模块</name>
     <packaging>jar</packaging>
-    <version>${fais.version}</version>
+    <version>1.0.0-SNAPSHOT</version>
 
 
 </project>

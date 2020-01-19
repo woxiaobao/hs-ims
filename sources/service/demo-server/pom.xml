@@ -13,18 +13,18 @@
     <artifactId>demo-server</artifactId>
     <name>demo-service</name>
     <packaging>jar</packaging>
-    <version>${fais.version}</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
             <groupId>com.fais.hs.manage</groupId>
             <artifactId>common</artifactId>
-            <version>${fais.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.fais.hs.manage</groupId>
             <artifactId>demo-api</artifactId>
-            <version>${fais.version}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
