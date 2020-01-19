@@ -7,5 +7,12 @@ package com.baolin.test;
 public class Test {
     public static void main(String[] ager){
         System.out.println("hello world!");
+        System.out.println("hello world!");
+        System.out.println("hello world!");
+        System.out.println("hello world!");
+        System.out.println("hello world!");
+        System.out.println("hello world!");
+        System.out.println("hello world!");
+
     }
 }
